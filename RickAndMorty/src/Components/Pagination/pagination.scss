@@ -1,0 +1,80 @@
+.pagination{
+    border:1px solid grey;
+    border-radius: 5px;
+    padding:20px;
+    background-image: url('./tumblr_pfd7zhgPiO1x6lzrbo9_500.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+.buttons{
+width:100%;
+display: flex;
+justify-content: space-around;
+
+>button{
+background-color: rgba(255, 255, 255, 0.664);
+    margin:10px;
+    height: 20px;
+    width:40px;
+    border: none;
+    border-radius: 5px;
+}
+   
+>button:hover{
+background-color: grey
+        
+}
+
+>button:active{
+    background-color: rgb(200, 255, 0);
+    color:white;
+}
+}
+.buttonsagain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    >button{
+        padding:5px;
+border: none;
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.7);
+    }
+
+
+    >button:hover{
+        background-color: grey
+ }
+
+
+>button:active{
+    background-color: rgba(224, 16, 16, 0.7);
+    color:white;
+}
+}
+}
+
+
+@media only screen and(max-width:768px) {
+
+    .pagination{
+        width:50%;
+.buttons{
+
+>button{
+
+    margin:4px;
+    height: 15px;
+    width:34px;
+
+}
+
+
+}
+
+
+    }
+    
+}
+

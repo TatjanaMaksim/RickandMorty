@@ -1,0 +1,36 @@
+.singlepage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-image: url("./658977.png");
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+}
+
+.singlepage .gohomepickle {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url("./jing.fm-pickle-clipart-black-and-859549.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+  width: 100px;
+  height: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+  .singlepage .gohomepickle {
+    width: 75px;
+    height: 90px;
+  }
+}
+/*# sourceMappingURL=singlepage.css.map */
